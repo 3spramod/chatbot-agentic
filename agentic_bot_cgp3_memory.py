@@ -18,9 +18,9 @@ pd.set_option("display.max_columns", None)
 
 # ================= CONFIG =================
 WORKSPACES = {
-    "file1": "data/Inventory_augmented.xlsx",
-    "file2": "data/car_showroom_dummy.xlsx",
-    "file3": "data/computer_Part_report.xlsx",
+    "file1": "Inventory_augmented.xlsx",
+    "file2": "car_showroom_dummy.xlsx",
+    "file3": "computer_Part_report.xlsx",
 }
 MODEL_NAME = "gpt-4o-mini-2024-07-18"
 EMBED_MODEL = "text-embedding-3-small"
@@ -202,3 +202,4 @@ def query_route(workspace):
 # ================= MAIN =================
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=False)
+
