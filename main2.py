@@ -3,7 +3,7 @@ import requests
 import base64
 
 # ==================== CONFIG ====================
-BACKEND_BASE_URL = "http://127.0.0.1:5000"  # Flask backend
+BACKEND_BASE_URL = "https://chatbot-agentic-2.onrender.com"  # Flask backend
 FAVICON_PATH = "favicon.png"
 
 # Function to convert image to Base64
